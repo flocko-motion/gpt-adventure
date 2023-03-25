@@ -15,7 +15,7 @@ $TIME_LEFT 80 days, 0 hours, 0 minutes$
 $LOCATION London$
 
 Status updates are always isolated on a new line.
-Everytime the story arrives at a new location, you should print an "$IMAGE description of scene for image generation" status update
+Everytime the story arrives at a new location, you should print an "$IMAGE description of scene for image generation$" status update
 The image should never contain Phileas Fogg or Jean Passepartout - only surroundings, scenery, vehicles and other people`;
 
 let firstCall = 'Welcome the player and introduce yourself. Explain the task: around the world in 80 days. Also send the first status update: money, days left. ';
