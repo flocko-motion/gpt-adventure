@@ -9,7 +9,7 @@ You need an **OpenAI** API-key to run the game:
 
 1) Put API key into _apikey.php.example_ and save the file as _apikey.php_
 2) Upload all files to your server
-3) Open "index.php" in browser
+3) Open "index.html" in browser
 
 ## Modifying the game
 
