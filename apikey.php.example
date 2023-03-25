@@ -1,0 +1,4 @@
+<?php
+
+// put your openai api key here and save the file as 'apikey.php'
+$api_key = 'APIKEY';

@@ -1,0 +1,71 @@
+/* Import the Cinzel font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+/* General styles */
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #c2c0b4;
+    color: #3c2f2f;
+}
+
+/* Header styles */
+header {
+    background-color: #8c7284;
+    border-bottom: 5px solid #4a3f46;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Main content styles */
+main {
+    padding: 1rem;
+}
+
+/* Status bars */
+#status-bars .d-flex {
+    background-color: #d5c9e2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+#status-bars span {
+    font-size: 1.1rem;
+}
+
+/* Illustrative image */
+#illustrative-image-container {
+    height: 250px;
+}
+
+/* Scene description */
+#scene-description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-indent: 30px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #8c7284;
+    border-top: 5px solid #4a3f46;
+}
+
+/* User input form */
+#user-input-form {
+    padding: 0.5rem 0;
+}
+
+#user-input {
+    background-color: #d5c9e2;
+    border: 1px solid #4a3f46;
+}
+
+#submit-button {
+    background-color: #4a3f46;
+    border: 1px solid #4a3f46;
+}
