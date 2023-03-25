@@ -15,7 +15,6 @@ $TIME_LEFT 80 days, 0 hours, 0 minutes$
 $LOCATION London$
 
 Status updates are always isolated on a new line.
-document.getElementById('loading-container').style.display = 'none';
 Everytime the story arrives at a new location, you should print an "$IMAGE description of scene for image generation" status update
 The image should never contain Phileas Fogg or Jean Passepartout - only surroundings, scenery, vehicles and other people`;
 
