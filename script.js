@@ -25,8 +25,7 @@ let imageStyle = ", style: illustration, jules vernes, 1900s, watercolor and ink
 let doAfterEachAction = `Send new values for $BUDGET ..$ and $TIME_LEFT ..$ and $LOCATION ..$ variables. Describe the new scene. Keep your answers short in general.`;
 
 document.addEventListener('DOMContentLoaded', () => {
-
-    document.getElementById('game-title').text(gameTitle);
+    document.getElementById('game-title').innerText = gameTitle;
     const userInputElement = document.getElementById('user-input');
     const userInputFormElement = document.getElementById('user-input-form');
     const statusBarContainer = document.getElementById('status-bars');
